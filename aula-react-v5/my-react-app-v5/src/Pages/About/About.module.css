@@ -1,0 +1,20 @@
+.about {
+  padding: 40px;
+  font-family: Arial, sans-serif;
+  color: #333;
+  line-height: 1.8; /* melhora ainda mais a leitura */
+  max-width: 900px; /* limita a largura para não ficar muito esticado */
+  margin: 0 auto; /* centraliza o conteúdo na tela */
+}
+
+.about h1 {
+  font-size: 2.4rem; /* título maior */
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.about p {
+  font-size: 1.3rem; /* aumenta o tamanho da fonte dos parágrafos */
+  text-align: justify; /* texto justificado */
+  margin-bottom: 20px; /* espaçamento maior entre parágrafos */
+}

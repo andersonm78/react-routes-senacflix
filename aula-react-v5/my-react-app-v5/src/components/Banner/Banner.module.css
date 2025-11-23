@@ -1,0 +1,37 @@
+.banner {
+  background-color: #007acc;
+  padding: 15px 30px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.link {
+  background-color: white;
+  color: #007acc;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 8px 16px;
+  border-radius: 6px;
+  border: 2px solid white;
+  transition: all 0.3s ease;
+}
+
+.link:hover {
+  background-color: #e6f0ff;
+  border-color: #005fa3;
+  color: #005fa3;
+}
+
+.active {
+  background-color: #ffcc00;
+  color: #333;
+  border-color: #ffcc00;
+}

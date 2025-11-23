@@ -1,0 +1,21 @@
+.header {
+    background-color: #007acc;
+    color: white;
+    text-align: center;
+    padding: 25px 0;
+    font-family: Arial, sans-serif;
+}
+
+.logoContainer {
+    margin-bottom: 8px;
+}
+
+.logo {
+    width: 600px;
+    height: auto;
+}
+
+.title {
+    font-size: 16px;
+    margin: 0;
+}
