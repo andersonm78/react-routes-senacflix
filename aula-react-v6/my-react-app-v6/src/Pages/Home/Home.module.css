@@ -1,0 +1,34 @@
+.home {
+  padding: 40px;
+  font-family: Arial, sans-serif;
+  color: #333;
+  overflow: hidden;
+}
+
+.marquee {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.track {
+  display: flex;
+  width: max-content; /* ✅ permite que o conteúdo se estenda corretamente */
+  animation: scroll 35s linear infinite;
+}
+
+.poster {
+  height: 600px;
+  margin-right: 20px; /* ✅ espaçamento entre cartazes */
+  border-radius: 8px;
+  flex-shrink: 0;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
