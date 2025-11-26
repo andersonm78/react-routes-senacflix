@@ -1,0 +1,82 @@
+.categoria {
+  margin-bottom: 50px;
+}
+
+/* ✅ Título alinhado à esquerda com hover discreto */
+.tituloCategoria {
+  font-size: 2rem;
+  margin: 0 0 16px -1700px;
+  padding: 6px 12px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+  display: inline-block;
+  color: inherit;
+  background-color: transparent;
+  text-align: left;
+}
+
+.tituloCategoria:hover {
+  background-color: orange;
+}
+
+/* ❌ Remova este bloco duplicado */
+h2 {
+  /* pode apagar tudo aqui */
+}
+
+.carrosselWrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.listaFilmes {
+  display: flex;
+  overflow-x: auto;
+  gap: 15px;
+  scroll-behavior: smooth;
+  padding: 10px 0;
+  scrollbar-width: thin;
+}
+
+.listaFilmes::-webkit-scrollbar {
+  height: 16px;
+}
+
+.listaFilmes::-webkit-scrollbar-thumb {
+  background-color: #aaa;
+  border-radius: 10px;
+}
+
+.navButton {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(255, 255, 255, 0.95);
+  color: #007acc;
+  border: 3px solid #000;
+  font-size: 2rem;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  transition: background 0.3s;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navButton:hover {
+  background: #007acc;
+  color: white;
+}
+
+.navButton.left {
+  left: -12px;
+  z-index: 5;
+}
+
+.navButton.right {
+  right: -12px;
+}

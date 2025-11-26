@@ -1,0 +1,86 @@
+.banner {
+  background-color: #007acc;
+  padding: 15px 30px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.nav {
+  display: flex;
+  justify-content: center; /* mantém os itens centralizados */
+  align-items: center;
+  gap: 20px; /* espaçamento entre os elementos */
+  flex-wrap: wrap;
+}
+
+.link {
+  background-color: white;
+  color: #007acc;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 8px 16px;
+  border-radius: 6px;
+  border: 2px solid white;
+  transition: all 0.3s ease;
+}
+
+.link:hover {
+  background-color: #e6f0ff;
+  border-color: #005fa3;
+  color: #005fa3;
+}
+
+.active {
+  background-color: #ffcc00;
+  color: #333;
+  border-color: #ffcc00;
+}
+
+.search {
+  padding: 13px 30px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 2px solid white;
+  transition: all 0.3s ease;
+  color: #007acc;
+  margin-left: 50px;
+  /* 👈 pequeno afastamento do botão "Contact" */
+}
+
+.search::placeholder {
+  color: #aaa;
+}
+
+.search:focus {
+  outline: none;
+  border-color: #005fa3;
+  background-color: #e6f0ff;
+}
+
+.clearButton {
+  background-color: #ffcc00;
+  color: #333;
+  font-weight: bold;
+  border: 2px solid #ffcc00;
+  border-radius: 6px;
+  padding: 13px 16px; /* 👈 aumentou a altura com 13px no topo/base */
+  margin-left: 0px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.clearButton:hover {
+  background-color: #ffe066;
+  border-color: #e6b800;
+  color: #005fa3;
+}
+
+.filtroWrapper {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: auto; /* ✅ empurra o grupo para a direita */
+  gap: 10px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
