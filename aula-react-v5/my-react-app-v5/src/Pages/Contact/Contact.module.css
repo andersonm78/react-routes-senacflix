@@ -1,0 +1,21 @@
+.contact {
+  padding: 40px;
+  font-family: Arial, sans-serif;
+  color: #333;
+  line-height: 1.8;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center; /* centraliza todo o conteúdo */
+}
+
+.contact h1 {
+  font-size: 2.4rem;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.contact p {
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+  text-align: center; /* centraliza o texto do parágrafo */
+}

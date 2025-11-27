@@ -1,0 +1,12 @@
+.home {
+  padding: 40px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.imagem {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
